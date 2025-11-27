@@ -112,7 +112,7 @@ if __name__ == "__main__":
         usuario = os.getlogin()
 
         # Define os caminhos da pasta de PDFs e do arquivo Excel de saída
-        base_path = fr"C:\Users\{usuario}\OneDrive\Documents\Simulador-Consorcio"
+        base_path = fr"C:\Users\{usuario}\OneDrive\Documents\Simulador-de-Consorcio"
         pasta_pdfs = os.path.join(base_path, "PDF")
         excel_path = os.path.join(base_path, "PDF", "XLSX", "tabelas_banco.xlsx")
 
